@@ -1,0 +1,22 @@
+body {
+  background-color: #613879;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.done .taskName {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.heading {
+  font-size: 3rem;
+  padding: 10px;
+  background-color: #ffffff;
+  margin-top: 30px;
+}
+span {
+  margin: 0px 10px;
+}
+span > button {
+  border-radius: 10%;
+}
